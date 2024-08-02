@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form Task</title>
+
+</head>
+<body>
+<style>
+    .form{
+    padding-left: 20px;
+    }
+    .conact-form__input,.contact-form__name,.contact-form__gender,.contact-form__email,.contact-form__date,.contact-form__add,.contact-form__submit{
+        margin-top: 28px;
+    }
+
+    
+.contact-form__date{
+    margin-bottom: 10px;
+}
+    .contact-form__sal{
+        margin-bottom: 0px;
+    }
+    
+    .contact-form__input{
+        margin-top: 30px;
+    }
+    .contact-form__add{
+    margin-top: 50px;
+    }
+.contact-form__para{
+    position: relative;
+    margin-bottom: 20px;
+
+}
+.title{
+    
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(40, 40, 105);
+}
+
+.set{
+    display: inline-block;
+}
+    
+</style>
+    <h1 class="title">Form Task</h1>
+    <div class="contact-form">
+       <form>
+        <fieldset class="set">
+
+    
+       <legend class="contact-form__para"> Personal Details</legend>
+    
+    
+       <p class="contact-form__sal">Salutation</p>
+
+      <select>
+        <option>--none--</option>
+        <option>able</option>
+       </select>
+    <br>
+       
+        <label>
+            First Name:
+        </label>
+        <input type="text" class="contact-form__input"><br>
+
+    
+
+                <label>Last Name:</label>
+                <input type="text" class="contact-form__name"><br>
+            
+                <label>Gender</label><input type="radio">Male<input type="radio" class="contact-form__gender">Female<br>
+
+            
+            
+                <label>Email:</label><input type="email" class="contact-form__email"><br>
+            
+            
+                <label>Date of Birth:</label><input type="date" class="contact-form__date"><br>
+            
+                <label class="contact-form__add">Address:</label><br>
+
+        <textarea class="contact-form__textarea"></textarea><br>
+                
+
+            
+            
+                    <button class="contact-form__submit">Submit</button>
+    
+                
+    </fieldset>
+       </form>
+       
+
+    </div>
+</body>
+</html>
